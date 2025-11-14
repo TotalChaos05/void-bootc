@@ -21,7 +21,7 @@
 
 /bin/xbps-install -Su
 /bin/xbps-install -u xbps
-/bin/xbps-install firefox river labwc rofi helix
+/bin/xbps-install firefox river labwc rofi helix bash git
 
 #### Example for enabling a System Unit File
 
