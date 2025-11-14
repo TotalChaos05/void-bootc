@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ouex pipefail
+/bin/set -ouex pipefail
 
 ### Install packages
 
@@ -19,9 +19,9 @@ set -ouex pipefail
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-xbps-install -Su
-xbps-install -u xbps
-xbps-install firefox river labwc rofi helix
+/bin/xbps-install -Su
+/bin/xbps-install -u xbps
+/bin/xbps-install firefox river labwc rofi helix
 
 #### Example for enabling a System Unit File
 
